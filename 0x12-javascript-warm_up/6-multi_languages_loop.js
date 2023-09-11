@@ -1,11 +1,6 @@
 #!/usr/bin/node
 
-const texts = [
-  'C is fun',
-  'Python is cool',
-  'JavaScript is amazing'
-];
 
-for (let i = 0; i < texts.length; i++) {
-  console.log(texts[i]);
-};
+console.log('C is fun');
+console.log('Python is cool');
+console.log('JavaScript is amazing'); 
