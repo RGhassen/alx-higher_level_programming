@@ -1,8 +1,7 @@
 #!/usr/bin/node
-/**
- * nPrint - Prints a string n times.
- * @param {Number} n - The number of times to print the string.
- * @param {String} txt - The string to print.
+/*
+Prints a string n times.
+.
  */
 function nPrint (n, txt) {
   if (Number.isNaN(n)) {
@@ -12,6 +11,6 @@ function nPrint (n, txt) {
       console.log(txt);
     }
   }
-}
+};
 
 nPrint(Number.parseInt(process.argv[2]), 'C is fun');

@@ -1,9 +1,8 @@
 #!/usr/bin/node
-/**
- * factorial - Computes the factorial of a number.
- * @param {Number} num - The number.
- *
- * @returns The factorial of the number.
+
+/*
+Computes the factorial of a number.
+
  */
 function factorial (num) {
   if (Number.isNaN(num) || (num <= 0)) {
