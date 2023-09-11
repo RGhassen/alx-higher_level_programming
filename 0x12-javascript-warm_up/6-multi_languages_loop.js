@@ -6,4 +6,6 @@ const texts = [
   'JavaScript is amazing'
 ];
 
-texts.map((text) => console.log(text))
+for (let i = 0; i < texts.length; i++) {
+  console.log(texts[i]);
+};
