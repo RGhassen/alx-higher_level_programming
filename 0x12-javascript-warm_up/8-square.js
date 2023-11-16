@@ -1,8 +1,7 @@
 #!/usr/bin/node
-
-
-/*
- Prints a square with 'X'.
+/**
+ * square - Prints a square with 'X'.
+ * @param {Number} size - The size of the square.
  */
 function square (size) {
   if (Number.isNaN(size)) {
